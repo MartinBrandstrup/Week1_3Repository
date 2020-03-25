@@ -1,6 +1,22 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
-import My_Table from './myTable/MyTable.js'
+import My_Table from './Tuesday/MyTable.js'
+import SetCurrentTime from './Wednesday/SetCurrentTime'
+import FuncCompUseState from './Wednesday/FuncCompUseState'
+
+function App() {
+  return (
+    <div className="App">
+      <h2>Wednesday</h2>
+      <SetCurrentTime />
+      <FuncCompUseState />
+    </div>
+  );
+}
+
+
+/*
+Tirsdagsdemo
 
 let cars =
   [{ 'model': 'Audi', 'year': '2000' }
@@ -10,6 +26,7 @@ let cars =
 function App() {
   return (
     <div className="App">
+      <h2>Tuesday</h2>
       <My_Table name="Flemming" age="12" />
       <h2>Class</h2>
       <CarComp cars={cars} />
@@ -63,5 +80,5 @@ const My_Comp = () => {
     <div>Hello from My Component</div>
   );
 }
-
+*/
 export default App;

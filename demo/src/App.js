@@ -1,8 +1,23 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import My_Table from './Tuesday/MyTable.js'
 import SetCurrentTime from './Wednesday/SetCurrentTime'
 import FuncCompUseState from './Wednesday/FuncCompUseState'
+import LiftingStateParent from './Thursday/LiftingStateParent'
+
+function App() {
+  return (
+    <div className="App">
+      <h2>Thursday</h2>
+      <LiftingStateParent />
+    </div>
+  );
+}
+
+
+
+/*
+Onsdagsdemo
 
 function App() {
   return (
@@ -13,7 +28,7 @@ function App() {
     </div>
   );
 }
-
+*/
 
 /*
 Tirsdagsdemo
